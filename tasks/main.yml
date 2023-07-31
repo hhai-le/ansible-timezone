@@ -1,0 +1,4 @@
+---
+# tasks file for timezone
+- name: set timezone
+  shell: timedatectl set-timezone Asia/Singapore
